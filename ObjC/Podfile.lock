@@ -1,0 +1,22 @@
+PODS:
+  - Flurry-iOS-SDK/CrashReporter (12.1.1)
+  - Flurry-iOS-SDK/FlurrySDK (12.1.1):
+    - Flurry-iOS-SDK/CrashReporter
+  - Yahoo-Mobile-SDK (1.2.0):
+    - Flurry-iOS-SDK/FlurrySDK (~> 12.1.0)
+
+DEPENDENCIES:
+  - Yahoo-Mobile-SDK (~> 1.2)
+
+SPEC REPOS:
+  trunk:
+    - Flurry-iOS-SDK
+    - Yahoo-Mobile-SDK
+
+SPEC CHECKSUMS:
+  Flurry-iOS-SDK: 2ae2391515ae3248a63e95a397c1b393ae52b3a9
+  Yahoo-Mobile-SDK: e1e7736494c6ce073710342fd1ca6ef2f1ce2df1
+
+PODFILE CHECKSUM: 4e898a7fbf5d3c964eb97bea780c7c6857b9218e
+
+COCOAPODS: 1.11.3

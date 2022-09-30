@@ -1,0 +1,20 @@
+# Copyright Yahoo, Licensed under the terms of the Apache 2.0 license . See LICENSE file in project root for terms.
+
+platform :ios, '11.0'
+
+target 'SampleApp' do
+  use_frameworks!
+  project "SampleApp.xcodeproj"
+
+  pod 'Yahoo-Mobile-SDK', '~> 1.2'
+end
+
+post_install do |installer_representation|
+  installer_representation.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+       if Gem::Version.new('9.0') > Gem::Version.new(config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'])
+          config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
+      end
+    end
+  end
+end

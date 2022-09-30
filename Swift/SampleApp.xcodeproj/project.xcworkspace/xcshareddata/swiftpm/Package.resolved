@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "flurryswiftpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/flurry/FlurrySwiftPackage",
+      "state" : {
+        "revision" : "75aae65b7eb53aa3dc62f8e6c27f0ab1e281c0e7",
+        "version" : "12.1.1"
+      }
+    },
+    {
+      "identity" : "yahoomobilesdk-swiftpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yahoo/YahooMobileSDK-SwiftPackage.git",
+      "state" : {
+        "revision" : "733820b28e9dd8f7a0198861bee97ab7cf9bfdb8",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
