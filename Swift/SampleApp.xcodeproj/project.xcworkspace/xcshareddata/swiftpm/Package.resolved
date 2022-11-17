@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/flurry/FlurrySwiftPackage",
       "state" : {
-        "revision" : "75aae65b7eb53aa3dc62f8e6c27f0ab1e281c0e7",
-        "version" : "12.1.1"
+        "revision" : "6e614a60a394cd99a344ae16e6dd9a9d6d2105fa",
+        "version" : "12.1.4"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/yahoo/YahooMobileSDK-SwiftPackage.git",
       "state" : {
-        "revision" : "733820b28e9dd8f7a0198861bee97ab7cf9bfdb8",
-        "version" : "1.2.0"
+        "revision" : "33d4f47639da2b7f07631a62f6d368ec007e2ab8",
+        "version" : "1.3.0"
       }
     }
   ],

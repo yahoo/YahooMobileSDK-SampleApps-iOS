@@ -6,7 +6,7 @@ target 'SampleApp' do
   use_frameworks!
   project "SampleApp.xcodeproj"
 
-  pod 'Yahoo-Mobile-SDK', '~> 1.2'
+  pod 'Yahoo-Mobile-SDK', '~> 1.3'
 end
 
 post_install do |installer_representation|
